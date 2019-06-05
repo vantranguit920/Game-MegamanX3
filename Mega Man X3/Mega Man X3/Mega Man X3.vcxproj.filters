@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{59fcfde3-9be9-4d31-a97b-1b4b8c843c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{c7cfc67a-4e8e-4c4e-a4e7-3d5583a04644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameDifine">
+      <UniqueIdentifier>{736092ec-17c6-4362-8079-6ddbee015231}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FreamwordGame">
+      <UniqueIdentifier>{a682c30f-119c-45c2-a3d1-1ed3d163a262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BanDoGame">
+      <UniqueIdentifier>{cb233923-355b-4c55-9492-874ff70a2e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoiTuongGame">
+      <UniqueIdentifier>{cf6e03c1-2fbc-49e5-9e69-e1f6e38c5e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoiTuongGame\HieuUngGame">
+      <UniqueIdentifier>{a315f682-3a18-4656-8ff8-a384bf5fe3cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoiTuongGame\VatPham">
+      <UniqueIdentifier>{38179e53-16a5-4e21-8908-1c374c4aa418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoiTuongGame\NhanVat">
+      <UniqueIdentifier>{dff41b5b-164b-4254-8db7-f27bb4edf0ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoiTuongGame\Quai">
+      <UniqueIdentifier>{470a3100-6c21-45d7-aebd-8cb075ee92d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoiTuongGame\Boss">
+      <UniqueIdentifier>{37d917a0-3645-4a51-ac34-44577375593c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Keyboard.h">
+      <Filter>FreamwordGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>FreamwordGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>FreamwordGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>FreamwordGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphic.h">
+      <Filter>FreamwordGame</Filter>
+    </ClInclude>
+    <ClInclude Include="MegaMan.h">
+      <Filter>DoiTuongGame\NhanVat</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>DoiTuongGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>FreamwordGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinystr.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>FreamwordGame</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>FreamwordGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>GameDifine</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>DoiTuongGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>BanDoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="LightEnergy.h">
+      <Filter>DoiTuongGame\HieuUngGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Spark.h">
+      <Filter>DoiTuongGame\HieuUngGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>FreamwordGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Smoke.h">
+      <Filter>DoiTuongGame\HieuUngGame</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>FreamwordGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>DoiTuongGame\Quai</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>DoiTuongGame\VatPham</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>DoiTuongGame\HieuUngGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Collapse.h">
+      <Filter>DoiTuongGame\Quai</Filter>
+    </ClInclude>
+    <ClInclude Include="Megamananim.h">
+      <Filter>DoiTuongGame\NhanVat</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMegaman.h">
+      <Filter>DoiTuongGame\NhanVat</Filter>
+    </ClInclude>
+    <ClInclude Include="Mapinfo.h">
+      <Filter>BanDoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>BanDoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="TileSet.h">
+      <Filter>BanDoGame</Filter>
+    </ClInclude>
+    <ClInclude Include="HeadGun.h">
+      <Filter>DoiTuongGame\Quai</Filter>
+    </ClInclude>
+    <ClInclude Include="EleVaTor.h">
+      <Filter>DoiTuongGame\Quai</Filter>
+    </ClInclude>
+    <ClInclude Include="Helicope.h">
+      <Filter>DoiTuongGame\Quai</Filter>
+    </ClInclude>
+    <ClInclude Include="Frog.h">
+      <Filter>DoiTuongGame\Quai</Filter>
+    </ClInclude>
+    <ClInclude Include="Lifebar.h">
+      <Filter>DoiTuongGame\VatPham</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>DoiTuongGame\VatPham</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFather.h">
+      <Filter>DoiTuongGame\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="ConOng.h">
+      <Filter>DoiTuongGame\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="OngChua.h">
+      <Filter>DoiTuongGame\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Kysinh.h">
+      <Filter>DoiTuongGame\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="NguoiMay.h">
+      <Filter>DoiTuongGame\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="StarBoss.h">
+      <Filter>DoiTuongGame\Boss</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp">
+      <Filter>FreamwordGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>FreamwordGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>FreamwordGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphic.cpp">
+      <Filter>FreamwordGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>FreamwordGame</Filter>
+    </ClCompile>
+    <ClCompile Include="MegaMan.cpp">
+      <Filter>DoiTuongGame\NhanVat</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>DoiTuongGame</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>DoiTuongGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>FreamwordGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>FreamwordGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>FreamwordGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlparser.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinystr.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxmlerror.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>FreamwordGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Viewport.cpp">
+      <Filter>FreamwordGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>BanDoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="LightEnergy.cpp">
+      <Filter>DoiTuongGame\HieuUngGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Spark.cpp">
+      <Filter>DoiTuongGame\HieuUngGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Smoke.cpp">
+      <Filter>DoiTuongGame\HieuUngGame</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>FreamwordGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>DoiTuongGame\Quai</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>DoiTuongGame\VatPham</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>DoiTuongGame\HieuUngGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Collapse.cpp">
+      <Filter>DoiTuongGame\Quai</Filter>
+    </ClCompile>
+    <ClCompile Include="Megamananim.cpp">
+      <Filter>DoiTuongGame\NhanVat</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMegaman.cpp">
+      <Filter>DoiTuongGame\NhanVat</Filter>
+    </ClCompile>
+    <ClCompile Include="Mapinfo.cpp">
+      <Filter>BanDoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>BanDoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="TileSet.cpp">
+      <Filter>BanDoGame</Filter>
+    </ClCompile>
+    <ClCompile Include="HeadGun.cpp">
+      <Filter>DoiTuongGame\Quai</Filter>
+    </ClCompile>
+    <ClCompile Include="EleVaTor.cpp">
+      <Filter>DoiTuongGame\Quai</Filter>
+    </ClCompile>
+    <ClCompile Include="Helicope.cpp">
+      <Filter>DoiTuongGame\Quai</Filter>
+    </ClCompile>
+    <ClCompile Include="Frog.cpp">
+      <Filter>DoiTuongGame\Quai</Filter>
+    </ClCompile>
+    <ClCompile Include="Lifebar.cpp">
+      <Filter>DoiTuongGame\VatPham</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>DoiTuongGame\VatPham</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFather.cpp">
+      <Filter>DoiTuongGame\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="ConOng.cpp">
+      <Filter>DoiTuongGame\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="OngChua.cpp">
+      <Filter>DoiTuongGame\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Kysinh.cpp">
+      <Filter>DoiTuongGame\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="NguoiMay.cpp">
+      <Filter>DoiTuongGame\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="StarBoss.cpp">
+      <Filter>DoiTuongGame\Boss</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Resource Files\MegaMan.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+    <Xml Include="Resource Files\test.xml">
+      <Filter>Resource Files</Filter>
+    </Xml>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resource Files\MegaMan.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resource Files\Map.tmx">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

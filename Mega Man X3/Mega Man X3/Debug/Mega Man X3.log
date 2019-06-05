@@ -1,0 +1,11 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Mega Man X3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  ObjectManager.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\lam-pc\desktop\gameltl\mega man x3\mega man x3\objectmanager.cpp(325): warning C4018: '<': signed/unsigned mismatch
+  StarBoss.cpp
+  c:\program files (x86)\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+c:\users\lam-pc\desktop\gameltl\mega man x3\mega man x3\starboss.cpp(43): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\lam-pc\desktop\gameltl\mega man x3\mega man x3\starboss.cpp(49): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+c:\users\lam-pc\desktop\gameltl\mega man x3\mega man x3\starboss.cpp(52): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  Mega Man X3.vcxproj -> C:\Users\LAM-PC\Desktop\GameLTL\Mega Man X3\Debug\MegamanGame.exe
